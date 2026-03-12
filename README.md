@@ -12,7 +12,7 @@ This application helps users estimate their **monthly mortgage payments** and th
 
 ## 📸 Screenshot
 
-![App Screenshot](./screenshot.png)
+<img width="1000" height="500" alt="Screenshot_2026-03-12_14-13-53" src="https://github.com/user-attachments/assets/bb1c571c-b3ab-45f2-bf10-6dfa010e17ff" />)
 
 ---
 
