@@ -1,0 +1,278 @@
+.clearlink{
+    text-decoration: underline;
+    color:hsl(200, 26%, 54%);
+}
+.first-cont{
+    background-color: white;
+    padding:2rem;
+    border-top-left-radius:1.5rem;
+    border-bottom-left-radius:1.5rem;
+    border-top-right-radius:1.5rem;
+    border-bottom-right-radius:1.5rem;
+}
+.sec-cont{
+    background-color:hsl(202, 55%, 16%);
+    padding:2rem;
+    color: white;
+    height:30rem;
+    border-bottom-left-radius:5rem;
+    width:25rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-top-right-radius:1.5rem;
+    border-bottom-right-radius:1.5rem;
+}
+h2{
+    text-align: center;
+}
+.n{
+    text-align: center;
+}
+.result-show{
+    background-color:hsl(202,55%,16%);
+    padding:2rem;
+    color:white;
+    height:30rem;
+    border-bottom-left-radius:5rem;
+    width:25rem;
+    border-top-right-radius:1.5rem;
+    border-bottom-right-radius:1.5rem;
+}
+.cal-show-card{
+    background-color: hsl(206, 44%, 13%);
+    padding: 1.5rem;
+    border-radius:0.8rem;
+    border-style: solid;
+    border-color: hsl(61, 70%, 52%);
+    border-bottom:0;
+    border-left: 0;
+    border-right:0;
+    color: white;
+}
+h1{
+    font-size:1.3rem;
+    font-weight:1000;
+    color: hsl(201, 57%, 10%);
+}
+.first-fl{
+    display: flex;
+    gap:3rem;
+    align-items: center;
+}
+.one{
+    height: 1.8rem;
+    width:20rem;
+    font-size:1.1rem;
+    color:hsl(202, 55%, 16%);
+    font-weight:800;
+}
+.two{
+    height: 1.8rem;
+    width:9rem;
+    font-size:1.1rem;
+    color:hsl(202, 55%, 16%);
+    font-weight:800;
+}
+.three{
+    height:1.8rem;
+    width:9rem;
+    font-size:1.1rem;
+    color:hsl(202, 55%, 16%);
+    font-weight:800;
+}
+.term-name{
+    display: flex;
+    gap:1.2rem;
+}
+button{
+    color:hsl(202, 55%, 16%);
+    font-weight:1000;
+}
+.type-box1{
+    background-color: aqua;
+}
+.mortgage-name,.term-name,.type{
+    color: hsl(200, 24%, 40%);
+    font-weight:1000;
+}
+.repay-flex{
+    display: flex;
+    align-items: center;
+    gap:0.8rem;
+    border-style:solid;
+    padding:0.3rem;
+    height:2rem;
+    width:20rem;
+    border-width:0.1rem;
+}
+.type{
+    display: flex;
+    flex-direction:column;
+    gap:1rem;
+}
+.int-flex{
+    display: flex;
+    align-items: center;
+    gap:0.8rem;
+    border-style:solid;
+    padding:0.3rem;
+    height:2rem;
+    width:20rem;
+    border-width:0.1rem;
+
+}
+.cal-btn{
+    display: flex;
+    padding:1rem;
+    background-color:hsl(61, 70%, 52%);
+    width:14rem;
+    border-radius:2rem;
+}
+button{
+    border-style: none;
+    background-color:hsl(61, 70%, 52%);
+    font-size:1rem;
+    font-weight:700;
+}
+.container{
+    display: flex;
+    background-color:white;
+    border-top-left-radius:1.5rem;
+    border-bottom-left-radius:1.5rem;
+    border-top-right-radius:1.5rem;
+    border-bottom-right-radius:1.5rem;
+    padding-bottom:0;
+}
+.dataone{
+    font-size:2.2rem;
+    color:hsl(61, 70%, 52%);
+    font-weight:600;
+
+}
+.datatwo{
+    font-size:1.3rem;
+}
+.cont{
+    font-size:0.8rem;
+    line-height:1.3rem;
+}
+.cal{
+    font-size:0.8rem;
+    color: hsl(203, 41%, 72%);
+    font-weight: 500;
+}
+.n{
+    font-size:0.9rem;
+    color: hsl(203, 41%, 72%);
+}
+.cont{
+    color: hsl(203, 41%, 72%);
+}
+.line{
+    border-style:solid;
+    border-top:0;
+    border-left:0;
+    border-right: 0;
+    border-width:0.01rem;
+}
+input:hover{
+    background-color:hsl(62, 50%, 86%);
+    border-color: hsl(61, 70%, 52%);
+    border-style:solid;
+}
+@media(max-width:860px){
+.container{
+    flex-direction: column;
+    background-color:hsl(202, 86%, 94%);
+}
+.first-cont{
+display: flex;
+flex-direction: column;
+align-items: center;
+border-bottom-right-radius:0;
+border-bottom-left-radius:0;
+border-top-left-radius:0;
+border-top-right-radius:0;
+width:85vw;
+}
+.cal-btn{
+    width:70vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.sec-cont{
+    width:85vw;
+    border-bottom-left-radius:0;
+    border-top-right-radius:0;
+    border-bottom-right-radius:0;
+}
+.result-show{
+    display: flex;
+    flex-direction: column;
+    gap:0.1rem;
+    width:85vw;
+    border-bottom-left-radius:0;
+    border-top-right-radius:0;
+    border-bottom-right-radius:0;
+}
+h1{
+    font-size: 1.7rem;
+}
+.dataone{
+    font-size: 1.5rem;
+}
+.datatwo{
+    font-size:1rem;
+}
+h3{
+    font-size:2rem;
+}
+.one{
+    width:50vw;
+}
+.two,.three{
+    width:23vw;
+}
+.repay-flex,.int-flex{
+    width:50vw;
+}
+}
+@media (max-width:480px){
+.first-fl{
+    flex-direction: column;
+    gap:0.1rem;
+    align-items:start;
+    line-height:0.1rem;
+}
+.term-name{
+    flex-direction: column;
+}
+.one,.two,.three{
+    width:85vw;
+}
+.first-cont{
+    align-items:start;
+}
+.repay-flex,.int-flex{
+    width:85vw;
+}
+.cal-btn{
+ width:80vw;
+}
+button{
+    font-size:5vw;
+}
+.cont{
+    font-size:3.5vw;
+    line-height:1.5rem;
+}
+h1{
+    font-size:7vw;
+}
+.cal{
+    font-size:3.3vw;
+}
+}
