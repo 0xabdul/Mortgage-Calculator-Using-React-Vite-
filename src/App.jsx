@@ -82,7 +82,7 @@ function App() {
       </div>
       <br></br>
       <div className='cal-btn' onClick={late}>
-        <img src='src/assets/icon-calculator.svg' alt='calculator-img'></img>
+        <img src='assets/icon-calculator.svg' alt='calculator-img'></img>
         <button>Calculate Repayments</button>
       </div>
       </div>
@@ -90,7 +90,7 @@ function App() {
         {co &&(
         <div className='sec-cont'>
         <div className='imgs'>
-          <img src='src/assets/illustration-empty.svg' alt='empty-img'></img>
+          <img src='assets/illustration-empty.svg' alt='empty-img'></img>
         </div>
         <div className='name-result'>
           <h2>Result Show Here</h2>
